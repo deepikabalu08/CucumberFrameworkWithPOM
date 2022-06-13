@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T10:01:05 PST" name="Suite1" finished-at="2022-02-11T10:01:30 PST" duration-ms="24932">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.training.runner.Runner@192d43ce]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-11T10:01:05 PST" name="Test Demo" finished-at="2022-02-11T10:01:30 PST" duration-ms="24932">
+      <class name="com.training.runner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.training.runner.Runner@192d43ce]" started-at="2022-02-11T10:01:05 PST" name="setUpClass" finished-at="2022-02-11T10:01:06 PST" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.training.runner.Runner@192d43ce]" started-at="2022-02-11T10:01:06 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-11T10:01:18 PST" duration-ms="11506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into firebase application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.training.runner.Runner@192d43ce]" started-at="2022-02-11T10:01:18 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-11T10:01:28 PST" duration-ms="9857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into firebase application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.training.runner.Runner@192d43ce]" started-at="2022-02-11T10:01:28 PST" name="tearDownClass" finished-at="2022-02-11T10:01:30 PST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.training.runner.Runner -->
+    </test> <!-- Test Demo -->
+  </suite> <!-- Suite1 -->
+</testng-results>
